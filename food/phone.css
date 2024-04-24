@@ -1,0 +1,113 @@
+/* css variables
+:root {
+    --navbar-height: 50px;
+} */
+
+/* navigation */
+#navbar {
+
+    flex-direction: column;
+}
+
+/* logo n img */
+#logo {
+    margin: 3px 8px;
+}
+
+#logo img {
+    height: 55px;
+    margin: 10px 10px;
+}
+
+/* navigation bar n list */
+#navbar ul li {
+    list-style: none;
+    font-size: 1.0rem;
+}
+
+#navbar ul li a {
+    margin: 5px 3px;
+    border-radius: 10px;
+    padding: 3px 2px;
+}
+
+/* home n section */
+#home {
+    flex-direction: column;
+    padding: 5px 40px;
+    height: 475px;
+}
+
+#home::before {
+    height: 600px;
+}
+
+#home h1 {
+    color: white;
+    text-align: center;
+    font-family: "DM Serif Display", serif;
+}
+
+#home p {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "DM Serif Display", serif;
+}
+
+#services {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#services .box {
+    padding: 20px;
+    margin: 4px 8px;
+    border-radius: 25px;
+}
+
+#services .box img {
+    height: 135px;
+}
+
+/* utility */
+
+.h-primary {
+    font-size: 1.8rem;
+    padding: 12px;
+}
+
+.h-secondary {
+    font-size: 1.8rem;
+    padding: 12px;
+}
+
+/* client section */
+#client-section {
+    height: 410px;
+}
+
+.client-item {
+    padding: 0px 25px;
+}
+
+#client-section::before {
+    left: 0;
+    height: 40%;
+    width: 100%;
+}
+
+#client img {
+    height: 104px;
+}
+
+/* contact us */
+
+#contact-box form {
+    width: 60%;
+}
+
+#contact-box label {
+    font-size: 1.0rem;
+}
